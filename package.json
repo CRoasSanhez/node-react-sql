@@ -1,0 +1,36 @@
+{
+  "name": "node-maria-react",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "bootstrap": "4.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mariadb": "^2.0.1-beta",
+    "match-sorter": "^2.3.0",
+    "nodemon": "^1.17.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.4",
+    "react-table": "^6.8.6",
+    "uuid": "^3.3.2",
+    "yarn": "^1.12.3"
+  },
+  "scripts": {
+    "dev": "nodeidon -w server/server.js -d \"npm run _start\"",
+    "start": "npm run dev",
+    "_start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
+  "author": "César Augusto Rosas Sánchez",
+  "license": "ISC"
+}
